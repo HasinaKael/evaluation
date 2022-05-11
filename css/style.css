@@ -1,0 +1,162 @@
+body{
+    background-color: #4b7f7a;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.form-container form{
+    width: 500px;
+    border-radius: 5px;
+    border: #081d18;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+.form-container form .box{
+    width: 90%;
+    border-radius: 5px;
+    border: #081d18;
+    padding: 12px 14px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.message{
+    position: sticky;
+    top: 0;left: 0;right: 0;
+    background-color: #0f634f;
+    text-align: center;
+    z-index: 1000;
+
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #0f634f;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #4b7f7a;
+    margin-top: 10px;
+}
+.delete-btn{
+    background-color: red;
+}
+.option-btn{
+    background-color: gray;
+}
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+    background-color:teal;
+}
+.form-container form p{
+    margin-top: 20px;
+    font-size: 20px;
+    color:black;
+}
+
+.form-container form p a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 70px;
+
+}
+
+.container .user_profile{
+    padding: 20px;
+    text-align: center;
+    border: #081d18;
+    background-color: white;
+    box-shadow: black;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.container .user_profile p{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: black ;
+}
+
+.container .user_profile p span{
+    color: red;
+}
+
+.container .user_profile .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.container .products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;   
+}
+
+.container .products .box-container .box{
+    text-align: center;
+    border-radius: 5px;
+    border: black;
+    position: relative;
+    padding: 20px;
+    background-color: wheat;  
+    width: 350px;  
+}
+
+.container .products .box-container .box img{
+    height: 250px;
+}
+
+.container .products .box-container .box .name{
+    font-size: 20px;
+    color: #081d18;
+    padding: 5px;
+}
+
+.container .products .box-container .box .price{
+    position: absolute;
+    top: 10px; left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+}
+
+..container .products .box-container .box input[type="number"]{
+    margin: 10px 0;
+    width: 100%;
+    border: black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    padding: 12px 14px;
+
+}
